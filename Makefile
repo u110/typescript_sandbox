@@ -3,5 +3,3 @@ setup: yarn
 
 compile/%.ts:
 	yarn tsc --outFile build/$(subst .ts,.js,$(@F)) $(@F)
-
-
