@@ -5,9 +5,13 @@
   "author": "u110 <yuu.aizu@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gulp-cli": "^2.0.1",
     "typescript": "^3.1.1"
   },
   "devDependencies": {
+    "typescript": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
     "tslint": "^5.11.0"
   }
 }

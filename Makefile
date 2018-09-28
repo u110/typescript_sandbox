@@ -1,8 +1,6 @@
 setup: yarn
 	yarn add typescript
 
-build: compile/greeter.ts
-
 compile/%.ts:
 	yarn tsc --outFile build/$(subst .ts,.js,$(@F)) $(@F)
 
@@ -11,3 +9,7 @@ lint:
 
 open:
 	open greeter.html
+
+gulp:
+	yarn gulp -f proj/gulpfile.js
+	node proj/dist/main.js
