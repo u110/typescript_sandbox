@@ -8,3 +8,6 @@ compile/%.ts:
 
 lint:
 	yarn tslint --fix *.ts
+
+open:
+	open greeter.html
