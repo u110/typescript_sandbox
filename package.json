@@ -1,0 +1,10 @@
+{
+  "name": "typescript_in_5min",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "u110 <yuu.aizu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.1.1"
+  }
+}
